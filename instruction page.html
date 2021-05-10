@@ -82,6 +82,8 @@ background-color: #FFFFFF;
 
 <!-- menu bar start --------------->
 
+
+
 <nav class="navbar navbar-expand-md bg-primary navbar-dark ">
 
 	<a class="navbar-brand ps-5" href="#">LOGO</a>
@@ -93,9 +95,9 @@ background-color: #FFFFFF;
 
 
   <div class="collapse navbar-collapse" id="collapsibleNavbar">
-    <ul class="nav navbar-nav flex-fill w-100 justify-content-end">
+    <ul class="nav navbar-nav flex-fill justify-content-start">  <!--got it from stackoverflow-->
 
-      <li class="nav-item">
+      <li class="navbar-nav">  
         <a class="nav-link" href="#">Alert</a>
       </li>
       <li class="nav-item">
@@ -119,6 +121,126 @@ background-color: #FFFFFF;
 
 
     </ul>
+
+<ul class="nav navbar-nav flex-fill w-50 justify-content-end pe-5" >  <!--got it from stackoverflow-->
+            <li class="nav-item pe-3">
+                <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success bg-danger text-white" type="submit">Search</button>
+      </form>
+            </li>
+            <li class="nav-item pe-3">
+
+
+            		<!--notification start -->
+
+                  <img src="images/notification.png" data-toggle="modal" data-target="#myModal">
+
+
+
+  <!-- The Modal -->
+  <div class="modal fade" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">..Notification</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          1st noti......<br>
+          2nd noti...<br>
+          1st noti......<br>
+          2nd noti...<br>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+            </li>
+
+<!--notification ends -->
+
+
+
+
+
+
+            <li class="nav-item pe-3">
+                <img src="images/message.png"  data-toggle="modal" data-target="#subhammyModal2">
+
+                <div class="modal fade" id="subhammyModal2">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                    
+                      <!-- Modal Header -->
+                      <div class="modal-header">
+                        <h4 class="modal-title">ALL MESSAGES</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                      </div>
+                      
+                      <!-- Modal body -->
+                      <div class="modal-body">
+                        1st msg......<br>
+                        2nd msg...<br>
+                        1st msg......<br>
+                        2nd msg...<br>
+                      </div>
+                      
+                      <!-- Modal footer -->
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+
+
+
+                
+            </li>
+
+
+
+            <li class="nav-item pe-5">
+               
+
+              <div class="dropdown">
+                
+
+               
+
+
+                <div class="btn-group dropleft">
+                  <img src="images/myacc.png" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                    <button class="dropdown-item" type="button">Action</button>
+    <button class="dropdown-item" type="button">Another action</button>
+    <button class="dropdown-item" type="button">Something else here</button>
+                  </div>
+                </div>
+
+
+
+
+
+
+            </li>
+
+
+        </ul>
+
+
+
   </div>  
 
 
@@ -158,19 +280,20 @@ background-color: #FFFFFF;
 <div class="container">
 
 
-<div class="box overflow-auto mx-auto"> <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letrase. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letrase. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letrase. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letrase. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letrase. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letrase</p><br>
+<div class="box overflow-auto mx-auto"> <p style="text-align: left; padding-left: 20px; padding-top: 20px;">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letrase. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letrase. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letrase. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letrase. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letrase. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letrase</p><br>
 
 
 
-	<div class="justify-content-center align-items-center">
+	<div class="ps-5">
 
 <div class="form-check">
   <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-  <label class="form-check-label" for="flexCheckChecked">
-    I agree to the Terms and Conditions
-  </label>
+  <label class="form-check-label" for="flexCheckChecked">  I agree to the Terms and Conditions</label>
+  
 
 </div>
+
+
 </div>
 <br>
 
