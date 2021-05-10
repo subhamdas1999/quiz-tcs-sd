@@ -1,0 +1,14 @@
+
+there are lots of new thing in bootstrap 5...that can't get in w3 school ..use official site
+
+
+float....
+
+float-end
+float-start
+
+
+round image.......
+
+
+rounded-circle
